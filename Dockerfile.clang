@@ -1,4 +1,4 @@
-FROM ubuntu:22.04@sha256:34fea4f31bf187bc915536831fd0afc9d214755bf700b5cdb1336c82516d154e
+FROM ubuntu:22.04@sha256:4b1d0c4a2d2aaf63b37111f34eb9fa89fa1bf53dd6e4ca954d47caebca4005c2
 ARG VERSION=1:14.0.0-1ubuntu1
 RUN apt-get update
 RUN apt-get -y upgrade
